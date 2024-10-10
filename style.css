@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+.image img{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+    border-radius: 50%;
+    margin:20px;
+    cursor: pointer;
+    border:2px solid black;
+}
+.image img:hover{
+    opacity: .5;
+}
+.score{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.you{
+    font-size:2rem;
+    font-weight: bold;
+    margin:0 30px;
+    text-align: center;
+}
+.you p{
+    margin:0;
+}
+#you{
+    color:green;
+}
+#comp{
+    color:red;
+}
+.play{
+    text-align: center;
+    margin-top:3rem;
+}
+.play p{
+    font-size: 1.5rem;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#play-game1{
+    font-size: 1rem;
+    color:white;
+    background-color: black;
+}
+#play-game2{
+    font-size: 2rem;
+    background-color: black;
+    color:white;
+}
